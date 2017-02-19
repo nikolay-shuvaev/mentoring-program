@@ -1,8 +1,6 @@
 package com.epam.shuvaev.troubleshooting.task1;
 
-import java.util.Vector;
 import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 
 /**

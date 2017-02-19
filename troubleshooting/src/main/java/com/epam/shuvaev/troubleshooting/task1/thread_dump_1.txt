@@ -1,0 +1,131 @@
+2017-02-19 17:28:40
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.91-b14 mixed mode):
+
+"DestroyJavaVM" #41 prio=5 os_prio=0 tid=0x0000000016d6d000 nid=0x2540 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Test Thread 6" #17 prio=5 os_prio=0 tid=0x0000000016d48800 nid=0x1f4c waiting for monitor entry [0x0000000017aaf000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- waiting to lock <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Test Thread 5" #16 prio=5 os_prio=0 tid=0x0000000016d47800 nid=0x174c waiting for monitor entry [0x00000000179ae000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- waiting to lock <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Test Thread 4" #15 prio=5 os_prio=0 tid=0x0000000016d46800 nid=0x2440 waiting for monitor entry [0x00000000178af000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- waiting to lock <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Test Thread 3" #14 prio=5 os_prio=0 tid=0x0000000016d46000 nid=0x1be8 waiting on condition [0x00000000177ae000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- locked <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Test Thread 1" #12 prio=5 os_prio=0 tid=0x0000000016d40800 nid=0x27d8 waiting for monitor entry [0x00000000175af000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- waiting to lock <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Test Thread 0" #11 prio=5 os_prio=0 tid=0x0000000016d3d800 nid=0x8a0 waiting for monitor entry [0x00000000174ae000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.fillData(MainTask1.java:46)
+	- waiting to lock <0x00000000ead73448> (a java.lang.Class for com.epam.shuvaev.troubleshooting.task1.MainTask1)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1.lambda$main$0(MainTask1.java:34)
+	at com.epam.shuvaev.troubleshooting.task1.MainTask1$$Lambda$1/1324119927.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Service Thread" #10 daemon prio=9 os_prio=0 tid=0x0000000016a6d800 nid=0x1774 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #9 daemon prio=9 os_prio=2 tid=0x00000000153ad000 nid=0x9b4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #8 daemon prio=9 os_prio=2 tid=0x0000000015398000 nid=0x558 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #7 daemon prio=9 os_prio=2 tid=0x0000000015393000 nid=0x2550 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Ctrl-Break" #6 daemon prio=5 os_prio=0 tid=0x00000000153a3800 nid=0x2630 runnable [0x0000000016eae000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	- locked <0x00000000ead37d58> (a java.io.InputStreamReader)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	- locked <0x00000000ead37d58> (a java.io.InputStreamReader)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at com.intellij.rt.execution.application.AppMainV2$1.run(AppMainV2.java:63)
+
+"Attach Listener" #5 daemon prio=5 os_prio=2 tid=0x0000000015357800 nid=0x1004 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=2 tid=0x0000000015354800 nid=0x2174 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=1 tid=0x0000000002cab000 nid=0x1724 in Object.wait() [0x00000000166be000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000eac08ee0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x00000000eac08ee0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+"Reference Handler" #2 daemon prio=10 os_prio=2 tid=0x0000000002ca0000 nid=0x4fc in Object.wait() [0x00000000165be000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000eac06b50> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x00000000eac06b50> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"VM Thread" os_prio=2 tid=0x0000000015317800 nid=0x1b7c runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x0000000002bc7800 nid=0x2b84 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x0000000002bc9000 nid=0x2bc4 runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x0000000002bcb000 nid=0x1b50 runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x0000000002bcc800 nid=0x940 runnable 
+
+"VM Periodic Task Thread" os_prio=2 tid=0x0000000016aba800 nid=0x271c waiting on condition 
+
+JNI global references: 331
+
+Heap
+ PSYoungGen      total 18944K, used 4953K [0x00000000eac00000, 0x00000000ec100000, 0x0000000100000000)
+  eden space 16384K, 30% used [0x00000000eac00000,0x00000000eb0d6750,0x00000000ebc00000)
+  from space 2560K, 0% used [0x00000000ebe80000,0x00000000ebe80000,0x00000000ec100000)
+  to   space 2560K, 0% used [0x00000000ebc00000,0x00000000ebc00000,0x00000000ebe80000)
+ ParOldGen       total 44032K, used 0K [0x00000000c0400000, 0x00000000c2f00000, 0x00000000eac00000)
+  object space 44032K, 0% used [0x00000000c0400000,0x00000000c0400000,0x00000000c2f00000)
+ Metaspace       used 4164K, capacity 4710K, committed 4992K, reserved 1056768K
+  class space    used 467K, capacity 528K, committed 640K, reserved 1048576K
