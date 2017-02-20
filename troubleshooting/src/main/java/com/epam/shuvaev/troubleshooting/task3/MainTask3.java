@@ -8,13 +8,9 @@ public class MainTask3 {
     private static final int NUM_OF_THREADS = 4;
 
     public static void main(String[] args) {
-        FileUploader uploader = new FileUploader(4);
-//        uploader.run();
+        FileUploader uploader = new FileUploader();
         uploader.addFile("test1.txt");
-        uploader.addFile("test2.txt");
-        uploader.addFile("test3.txt");
-        uploader.addFile("test4.txt");
-        uploader.run();
+        uploader.upload();
     }
 
 
