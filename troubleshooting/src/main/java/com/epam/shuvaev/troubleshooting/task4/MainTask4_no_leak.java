@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by NICK on 19.02.2017
@@ -11,32 +12,27 @@ import java.util.ArrayList;
 public class MainTask4_no_leak {
 
     public static void main(String[] args) throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<String>();
         BufferedReader fileReader = new BufferedReader(new FileReader("troubleshooting/src/main/java/com/epam/shuvaev/troubleshooting/task4/test_data.txt"));
         String line;
         while ((line = fileReader.readLine()) != null) {
             if (line.length() > 3) {
-                String threeFirst = line.substring(0, 3);
+                String threeFirst = new String(line.substring(0, 3)); // fix leak
                 list.add(threeFirst);
-             }
+                waitForHeapDump();
+            }
         }
 
-        for (String s : list) {
-            System.out.println(s);
-        }
         fileReader.close();
-        list.clear();
-        list.trimToSize();
-        waitForHeapDump();
+        System.out.println("Done");
     }
 
     private static void waitForHeapDump() {
         try {
-            Thread.sleep(200000);
+            Thread.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
-
 
 }

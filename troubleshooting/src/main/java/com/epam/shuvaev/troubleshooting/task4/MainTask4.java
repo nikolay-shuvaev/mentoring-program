@@ -19,23 +19,19 @@ public class MainTask4 {
             if (line.length() > 3) {
                 String threeFirst = line.substring(0, 3);
                 list.add(threeFirst);
+                waitForHeapDump();
              }
         }
 
-        for (String s : list) {
-            System.out.println(s);
-        }
         fileReader.close();
-        waitForHeapDump();
+        System.out.println("Done");
     }
 
     private static void waitForHeapDump() {
         try {
-            Thread.sleep(200000);
+            Thread.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
-
-
 }
