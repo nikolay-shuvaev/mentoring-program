@@ -14,8 +14,7 @@
     <bytecodeTargetLevel>
       <module name="com.epam.shuvaev.mentoring" target="1.5" />
       <module name="com.epam.shuvaev.mentoring.troubleshooting" target="1.8" />
-      <module name="creation-pattern" target="1.7" />
-      <module name="creational-pattern" target="1.5" />
+      <module name="creation-pattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
