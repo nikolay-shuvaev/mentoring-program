@@ -12,6 +12,7 @@
         <module>troubleshooting</module>
         <module>creation-pattern</module>
         <module>web-services-task2</module>
+        <module>web-services-task3</module>
     </modules>
 
 </project>

@@ -4,12 +4,14 @@
     <file type="web" url="file://$PROJECT_DIR$/out/artifacts/web_services_task2_war_exploded/web.xml" />
     <file type="web" url="file://$PROJECT_DIR$/out/artifacts/web_services_Web_exploded/WEB-INF/web.xml" />
     <file type="web" url="file://$PROJECT_DIR$/web-services-task2" />
+    <file type="web" url="file://$PROJECT_DIR$/web-services-task3" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web-services-task2/pom.xml" />
+        <option value="$PROJECT_DIR$/web-services-task3/pom.xml" />
       </list>
     </option>
   </component>

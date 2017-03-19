@@ -11,16 +11,15 @@
         <module name="com.epam.shuvaev.mentoring.web-services.task2" />
         <module name="creation-pattern" />
         <module name="creational-pattern" />
+        <module name="web-services-task3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.epam.shuvaev.mentoring" target="1.5" />
       <module name="com.epam.shuvaev.mentoring.creational.pattern" target="1.8" />
       <module name="com.epam.shuvaev.mentoring.troubleshooting" target="1.8" />
-      <module name="com.epam.shuvaev.mentoring.web-services" target="1.5" />
       <module name="com.epam.shuvaev.mentoring.web-services.task2" target="1.5" />
-      <module name="web-services" target="1.5" />
-      <module name="web-services-task2" target="1.5" />
+      <module name="web-services-task3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
