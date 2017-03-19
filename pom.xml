@@ -11,7 +11,7 @@
     <modules>
         <module>troubleshooting</module>
         <module>creation-pattern</module>
+        <module>web-services-task2</module>
     </modules>
-
 
 </project>

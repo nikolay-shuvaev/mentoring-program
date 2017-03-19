@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.epam.shuvaev.mentoring.iml" filepath="$PROJECT_DIR$/com.epam.shuvaev.mentoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creation-pattern/com.epam.shuvaev.mentoring.creational.pattern.iml" filepath="$PROJECT_DIR$/creation-pattern/com.epam.shuvaev.mentoring.creational.pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/troubleshooting/com.epam.shuvaev.mentoring.troubleshooting.iml" filepath="$PROJECT_DIR$/troubleshooting/com.epam.shuvaev.mentoring.troubleshooting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/creation-pattern/creation-pattern.iml" filepath="$PROJECT_DIR$/creation-pattern/creation-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-services-task2/com.epam.shuvaev.mentoring.web-services.task2.iml" filepath="$PROJECT_DIR$/web-services-task2/com.epam.shuvaev.mentoring.web-services.task2.iml" />
     </modules>
   </component>
 </project>

@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com.epam.shuvaev.mentoring.creational.pattern" />
         <module name="com.epam.shuvaev.mentoring.troubleshooting" />
+        <module name="com.epam.shuvaev.mentoring.web-services.task2" />
         <module name="creation-pattern" />
         <module name="creational-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.epam.shuvaev.mentoring" target="1.5" />
+      <module name="com.epam.shuvaev.mentoring.creational.pattern" target="1.8" />
       <module name="com.epam.shuvaev.mentoring.troubleshooting" target="1.8" />
-      <module name="creation-pattern" target="1.8" />
+      <module name="com.epam.shuvaev.mentoring.web-services" target="1.5" />
+      <module name="com.epam.shuvaev.mentoring.web-services.task2" target="1.5" />
+      <module name="web-services" target="1.5" />
+      <module name="web-services-task2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
