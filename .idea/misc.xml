@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/com.epam.shuvaev.mentoring.web-services.task1" />
     <file type="web" url="file://$PROJECT_DIR$/out/artifacts/web_services_task2_war_exploded/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/out/artifacts/web_services_task3_war_exploded/WEB-INF/web.xml" />
     <file type="web" url="file://$PROJECT_DIR$/out/artifacts/web_services_Web_exploded/WEB-INF/web.xml" />
     <file type="web" url="file://$PROJECT_DIR$/web-services-task2" />
     <file type="web" url="file://$PROJECT_DIR$/web-services-task3" />
@@ -12,6 +14,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web-services-task2/pom.xml" />
         <option value="$PROJECT_DIR$/web-services-task3/pom.xml" />
+        <option value="$PROJECT_DIR$/web-services-task1/pom.xml" />
       </list>
     </option>
   </component>
