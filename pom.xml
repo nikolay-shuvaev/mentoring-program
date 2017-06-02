@@ -13,6 +13,7 @@
         <module>web-services-task3</module>
         <module>web-services-task1</module>
         <module>streams</module>
+        <module>streams2</module>
     </modules>
 
     <build>
