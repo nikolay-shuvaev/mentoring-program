@@ -1,5 +1,6 @@
 package beans;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,7 +8,7 @@ import java.util.List;
  */
 public class Book {
     private String title;
-    private List<Author> authors;
+    private List<Author> authors = new ArrayList<>();
     private int numberOfPages;
 
     public Book(String title, Integer numOfPages) {
@@ -45,6 +46,7 @@ public class Book {
         return "Book{" +
                 "title='" + title + '\'' +
                 ", authors=" + authors +
+                ", numberOfPages=" + numberOfPages +
                 '}';
     }
 }

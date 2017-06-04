@@ -1,5 +1,6 @@
 package beans;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ public class Author {
 
     private String name;
     private short age;
-    private List<Book> books;
+    private List<Book> books = new ArrayList<>();
 
     public Author(String name, short age) {
         this.name = name;
