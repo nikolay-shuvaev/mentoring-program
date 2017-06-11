@@ -15,6 +15,7 @@
         <module>streams</module>
         <module>streams2</module>
         <module>streams3</module>
+        <module>multithreading</module>
     </modules>
 
     <build>
