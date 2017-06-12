@@ -26,8 +26,8 @@ public class MergeSortTask extends RecursiveTask<int[]> {
         MergeSortTask sortedRight =  new MergeSortTask(Arrays.copyOfRange(ints, newSize, ints.length));
 
         sortedLeft.fork();
-        sortedRight.fork();
-        return merge(sortedLeft.join(), sortedRight.join());
+        int[] computed = sortedRight.compute();
+        return merge(sortedLeft.join(), computed);
     }
 
     private int[] merge(int[] sortedLeft, int[] sortedRight) {
