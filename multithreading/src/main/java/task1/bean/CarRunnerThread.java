@@ -1,4 +1,4 @@
-package bean;
+package task1.bean;
 
 /**
  * Created by Nikolay Shuvaev on 11.06.2017.

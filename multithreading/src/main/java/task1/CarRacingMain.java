@@ -1,4 +1,6 @@
-import bean.Car;
+package task1;
+
+import task1.bean.Car;
 
 import java.util.ArrayList;
 import java.util.List;
