@@ -16,6 +16,7 @@
         <module>streams2</module>
         <module>streams3</module>
         <module>multithreading</module>
+        <module>garbage-collector</module>
     </modules>
 
     <build>
