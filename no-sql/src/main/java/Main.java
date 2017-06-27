@@ -1,20 +1,21 @@
+import menu.AddNoteCommand;
+import menu.FindByTagCommand;
+import menu.FullTextSearchCommand;
+import menu.Menu;
 import services.NoteService;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         NoteService service = new NoteService();
 
-//        Note note = new Note(LocalDate.now(), "Hello tag", " This is first Hello message");
-//
-//        service.save(note);
-
-        service.findAll().forEach(System.out::println);
-
-        System.out.println("By tag");
-        service.findByTag("Hello tag").forEach(System.out::println);
-
-        System.out.println("By text search");
-        service.findByTextSearch("tag2 first").forEach(System.out::println);
+        new Menu(Arrays.asList(
+                new AddNoteCommand(service),
+                new FindByTagCommand(service),
+                new FullTextSearchCommand(service)
+            ))
+            .process();
     }
 
 }
